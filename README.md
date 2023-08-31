@@ -29,7 +29,7 @@ Among the features:
 >- .gitignore - Instruction for ignoring secret files
 >- bot.py - Bot's entry point
 
-Пример содержимого файла `.env`:
+E.G  `.env`:
 ```
 BOT_TOKEN=your_bot_api_token
 ADMINS_IDS=your_admins_ids
