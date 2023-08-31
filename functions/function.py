@@ -1,6 +1,3 @@
-import re
-
-
 from lexicon.lexicon import LEXICON_RU
 
 
