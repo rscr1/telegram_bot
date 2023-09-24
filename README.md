@@ -39,7 +39,7 @@ DB_USER=your_database_user
 DB_PASSWORD=your_database_password
 ```
 ***
-## Version
+## Version(check file requirements + pip install -r .\requirements.txt)
 >- Python 3.10.11
 >- Aiogram 3.0.0b7
 >- Environs 9.5.0
