@@ -14,7 +14,7 @@ Among the features:
 >- Parsing
 >- OOP
 >- Functional programming
->- decorators
+>- Decorators
 >- FSM
 ***
 ## Folders
