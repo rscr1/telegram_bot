@@ -115,7 +115,8 @@ LEXICON_RU: dict = {
     'got_margin': 'Средняя Маржа,₽:  ',
     'total_margin': 'Средняя полная маржа,₽: ',
     'got_marginality': 'Маржинальность,%: ',
-    'got_markup': 'Наценка,%: '
+    'got_markup': 'Наценка,%: ',
+    'not sold': 'Продаж нет'
 }
 
 

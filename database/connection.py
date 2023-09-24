@@ -650,6 +650,11 @@ def show_stat(user_id: int, flag_mode_item: int) -> str:
     sum_amount = LEXICON_RU['sum_amount']
     sum_amount_sold = LEXICON_RU['sum_amount_sold']
     spent = LEXICON_RU['spent']
+    if 'None' in output:
+        output_text = sum_amount + output[0] + '\n' + spent + output[2] + '\n' + LEXICON_RU['not sold']
+        cursor.close()
+        conn.close()
+        return output_text
     got = LEXICON_RU['spent']
     margin = LEXICON_RU['got_margin']
     total_margin = LEXICON_RU['total_margin']
@@ -658,6 +663,8 @@ def show_stat(user_id: int, flag_mode_item: int) -> str:
     columns = [sum_amount, sum_amount_sold, spent, got, margin, total_margin, marginality, markup]
     for i, j in zip(columns, output):
         output_text += i + j + '\n'
+    cursor.close()
+    conn.close()
     return output_text
 
 
