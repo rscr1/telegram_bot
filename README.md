@@ -39,7 +39,9 @@ DB_USER=your_database_user
 DB_PASSWORD=your_database_password
 ```
 ***
-## Version(check file requirements + pip install -r .\requirements.txt)
+## Install libraries(check file requirements):
+``` pip install -r requirements.txt ```
+## Version:
 >- Python 3.10.11
 >- Aiogram 3.0.0b7
 >- Environs 9.5.0
