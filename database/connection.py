@@ -19,8 +19,8 @@ password = config.tg_bot.password
 #this function translate data to text
 def to_text(name_columns: str, output_text) -> str:
     underline: str = '\n' + '=' * len(name_columns) + '\n'
-    text: str =  f'<code>{name_columns + underline + output_text}</code>'
-    return text
+    text: str =  name_columns + underline + output_text
+    return '@bold' + text
 
 
 # this fucntion add item to database

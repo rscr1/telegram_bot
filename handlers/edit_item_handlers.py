@@ -7,7 +7,9 @@ from aiogram.fsm.state import default_state
 from lexicon.lexicon import LEXICON_RU
 from keyboard.keyboards import standart_panel, back_panel, backback_panel, edit_panel, change_panel
 from functions.function import check_float, check_name, check_size
-from database.connection import check_product_id, check_transaction_id, show_product, delete_product, delete_transactions, check_amount_for_edit_item, update_item, update_transaction, check_amount_for_edit_sale, show_transaction
+from database.connection import (check_product_id, check_transaction_id, show_product, delete_product, 
+                                 delete_transactions, check_amount_for_edit_item, update_item, 
+                                 update_transaction, check_amount_for_edit_sale, show_transaction)
 from handlers.prime_handlers import FSMFillForm
 
 

@@ -3,7 +3,9 @@ import logging
 
 from aiogram import Bot, Dispatcher
 from config_data.config  import Config, load_config
-from handlers import add_item_handlers, other_handlers, prime_handlers, margin_handlers, calculate_price_handlers, show_item_handlers, add_sale_handlers, edit_item_handlers
+from handlers import (add_item_handlers, other_handlers, prime_handlers, 
+                    margin_handlers, calculate_price_handlers, show_item_handlers, 
+                    add_sale_handlers, edit_item_handlers)
 
 
 #init logger
