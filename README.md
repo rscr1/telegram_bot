@@ -1,7 +1,7 @@
 ## https://t.me/poison_resale_bot
 ## Python TelegramBot Aiogram + Postgresql + Docker
 ***
-The bot is created to simplify the process of buying and selling items on the Poison trading platform.
+The bot is created to simplify the process of buying and selling items on the trading platform.
 Among the features:
 >- Calculation of order total
 >- Checking the margin and markup on products to make purchasing decisions
